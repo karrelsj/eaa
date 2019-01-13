@@ -239,46 +239,46 @@
 <text x="-2.54" y="-5.08" size="1.778" layer="94">&gt;VALUE</text>
 </symbol>
 <symbol name="GDU45X">
-<pin name="CAN_BUS_HI" x="-10.16" y="2.54" length="middle"/>
-<pin name="CAN_BUS_LO" x="-10.16" y="0" length="middle"/>
-<pin name="RESERVED" x="-10.16" y="-2.54" length="middle"/>
-<pin name="RS_232_TX" x="-10.16" y="-5.08" length="middle"/>
-<pin name="RS-232-RX" x="-10.16" y="-7.62" length="middle"/>
-<pin name="GND" x="-10.16" y="-10.16" length="middle"/>
-<pin name="PWR1" x="-10.16" y="-12.7" length="middle" direction="pwr"/>
-<text x="-2.54" y="5.08" size="1.778" layer="94">P4X01</text>
-<pin name="PWR2" x="-10.16" y="-15.24" length="middle" direction="pwr"/>
-<pin name="GND2" x="-10.16" y="-17.78" length="middle"/>
+<pin name="1_CAN_BUS_HI" x="-10.16" y="2.54" length="middle"/>
+<pin name="2_CAN_BUS_LO" x="-10.16" y="0" length="middle"/>
+<pin name="3_RESERVED" x="-10.16" y="-2.54" length="middle"/>
+<pin name="4_RS_232_TX" x="-10.16" y="-5.08" length="middle"/>
+<pin name="5_RS-232-RX" x="-10.16" y="-7.62" length="middle"/>
+<pin name="6_GND1" x="-10.16" y="-10.16" length="middle"/>
+<pin name="7_PWR1" x="-10.16" y="-12.7" length="middle" direction="pwr"/>
+<text x="-2.54" y="5.08" size="1.778" layer="94">P4601</text>
+<pin name="8_PWR2" x="-10.16" y="-15.24" length="middle" direction="pwr"/>
+<pin name="9_GND2" x="-10.16" y="-17.78" length="middle"/>
 <wire x1="-5.08" y1="5.08" x2="-5.08" y2="-20.32" width="0.254" layer="94"/>
 <wire x1="-5.08" y1="-20.32" x2="30.48" y2="-20.32" width="0.254" layer="94"/>
 <wire x1="30.48" y1="-20.32" x2="30.48" y2="5.08" width="0.254" layer="94"/>
 <wire x1="30.48" y1="5.08" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
-<text x="-2.54" y="-25.4" size="1.778" layer="94">P4X02</text>
-<pin name="MONO_AUDIO_OUT_HI" x="-10.16" y="-27.94" length="middle"/>
-<pin name="STEREO_AUDIO_OUT_LO1" x="-10.16" y="-30.48" length="middle"/>
-<pin name="STEREO_AUDIO_OUT_LEFT" x="-10.16" y="-33.02" length="middle"/>
-<pin name="SPARE1" x="-10.16" y="-35.56" length="middle"/>
-<pin name="SPARE2" x="-10.16" y="-38.1" length="middle"/>
-<pin name="DNU1" x="-10.16" y="-40.64" length="middle"/>
-<pin name="DNU2" x="-10.16" y="-43.18" length="middle"/>
-<pin name="DNU3" x="-10.16" y="-45.72" length="middle"/>
-<pin name="CDU_SYSTEM_ID_PRG_2" x="-10.16" y="-48.26" length="middle"/>
-<pin name="CDU_SYSTEM_ID_PRG_1" x="-10.16" y="-50.8" length="middle"/>
-<pin name="DNU4" x="-10.16" y="-53.34" length="middle"/>
-<pin name="DNU5" x="-10.16" y="-55.88" length="middle"/>
-<pin name="RS-232-OUT3" x="-10.16" y="-58.42" length="middle"/>
-<pin name="RS-232-IN2" x="-10.16" y="-60.96" length="middle"/>
-<pin name="PWR_GND1" x="-10.16" y="-63.5" length="middle"/>
-<pin name="PWR_GND_2" x="-10.16" y="-66.04" length="middle"/>
-<pin name="CONFIG_MODULE_PWR_OUT" x="-10.16" y="-68.58" length="middle"/>
-<pin name="MONO_AUDIO_OUT_LO" x="-10.16" y="-71.12" length="middle"/>
-<pin name="STEREO_AUDIO_OUT_RIGHT" x="-10.16" y="-73.66" length="middle"/>
-<pin name="STEREO_AUDIO_OUT_LO2" x="-10.16" y="-76.2" length="middle"/>
-<pin name="DNU6" x="-10.16" y="-78.74" length="middle"/>
-<pin name="DNU7" x="-10.16" y="-81.28" length="middle"/>
-<pin name="RS-232-IN4" x="-10.16" y="-83.82" length="middle"/>
-<pin name="RS-232-IN5" x="-10.16" y="-86.36" length="middle"/>
-<pin name="CDU_SYSTEM_ID_PRG_3" x="-10.16" y="-88.9" length="middle"/>
+<text x="-2.54" y="-25.4" size="1.778" layer="94">P4602</text>
+<pin name="1_MONO_AUDIO_OUT_HI" x="-10.16" y="-27.94" length="middle"/>
+<pin name="2_STEREO_AUDIO_OUT_LO1" x="-10.16" y="-30.48" length="middle"/>
+<pin name="3_STEREO_AUDIO_OUT_LEFT" x="-10.16" y="-33.02" length="middle"/>
+<pin name="4_SPARE1" x="-10.16" y="-35.56" length="middle"/>
+<pin name="5_SPARE2" x="-10.16" y="-38.1" length="middle"/>
+<pin name="6_DNU1" x="-10.16" y="-40.64" length="middle"/>
+<pin name="7_DNU2" x="-10.16" y="-43.18" length="middle"/>
+<pin name="8_DNU3" x="-10.16" y="-45.72" length="middle"/>
+<pin name="9_CDU_SYSTEM_ID_PRG_2" x="-10.16" y="-48.26" length="middle"/>
+<pin name="10_CDU_SYSTEM_ID_PRG_1" x="-10.16" y="-50.8" length="middle"/>
+<pin name="11_DNU4" x="-10.16" y="-53.34" length="middle"/>
+<pin name="12_DNU5" x="-10.16" y="-55.88" length="middle"/>
+<pin name="13_RS-232-OUT3" x="-10.16" y="-58.42" length="middle"/>
+<pin name="14_RS-232-IN2" x="-10.16" y="-60.96" length="middle"/>
+<pin name="15_PWR_GND1" x="-10.16" y="-63.5" length="middle"/>
+<pin name="16_PWR_GND_2" x="-10.16" y="-66.04" length="middle"/>
+<pin name="17_CONFIG_MODULE_PWR_OUT" x="-10.16" y="-68.58" length="middle"/>
+<pin name="18_MONO_AUDIO_OUT_LO" x="-10.16" y="-71.12" length="middle"/>
+<pin name="19_STEREO_AUDIO_OUT_RIGHT" x="-10.16" y="-73.66" length="middle"/>
+<pin name="20_STEREO_AUDIO_OUT_LO2" x="-10.16" y="-76.2" length="middle"/>
+<pin name="21_DNU6" x="-10.16" y="-78.74" length="middle"/>
+<pin name="22_DNU7" x="-10.16" y="-81.28" length="middle"/>
+<pin name="23_RS-232-IN4" x="-10.16" y="-83.82" length="middle"/>
+<pin name="24_RS-232-IN5" x="-10.16" y="-86.36" length="middle"/>
+<pin name="25_CDU_SYSTEM_ID_PRG_3" x="-10.16" y="-88.9" length="middle"/>
 <pin name="28V_LIGHTING_BUS_HI" x="-10.16" y="-91.44" length="middle"/>
 <pin name="SIGNAL_GROUND1" x="-10.16" y="-93.98" length="middle"/>
 <pin name="CAN_BUS_TERM" x="-10.16" y="-96.52" length="middle"/>
@@ -286,24 +286,24 @@
 <pin name="RS-232-OUT2" x="-10.16" y="-101.6" length="middle"/>
 <pin name="AIRCRAFT_POWER_2" x="-10.16" y="-104.14" length="middle"/>
 <pin name="AIRCRAFT_POWER_1" x="-10.16" y="-106.68" length="middle"/>
-<pin name="CONFIG_MODULE_CLOCK" x="-10.16" y="-109.22" length="middle"/>
-<pin name="SIGNAL_GROUND2" x="-10.16" y="-111.76" length="middle"/>
-<pin name="SIGNAL_GROUND3" x="-10.16" y="-114.3" length="middle"/>
-<pin name="SIGNAL_GROUND4" x="-10.16" y="-116.84" length="middle"/>
-<pin name="SIGNAL_GROUND5" x="-10.16" y="-119.38" length="middle"/>
-<pin name="DNU8" x="-10.16" y="-121.92" length="middle"/>
-<pin name="DNU9" x="-10.16" y="-124.46" length="middle"/>
-<pin name="RS-232-OUT4" x="-10.16" y="-127" length="middle"/>
-<pin name="RS-232-OUT5" x="-10.16" y="-129.54" length="middle"/>
-<pin name="CDU_SYSTEM_ID_PRG4" x="-10.16" y="-132.08" length="middle"/>
-<pin name="14V_LIGHTING_BUS_HI" x="-10.16" y="-134.62" length="middle"/>
-<pin name="SIGNAL_GROUND6" x="-10.16" y="-137.16" length="middle"/>
-<pin name="CAN_BUS_LO_2" x="-10.16" y="-139.7" length="middle"/>
-<pin name="CAN_BUS_HI_2" x="-10.16" y="-142.24" length="middle"/>
-<pin name="RS-232-IN1" x="-10.16" y="-144.78" length="middle"/>
-<pin name="RS-232-OUT1" x="-10.16" y="-147.32" length="middle"/>
-<pin name="CONFIG_MODULE_GROUND" x="-10.16" y="-149.86" length="middle"/>
-<pin name="CONFIG_MODULE_DATA" x="-10.16" y="-152.4" length="middle"/>
+<pin name="33_CONFIG_MODULE_CLOCK" x="-10.16" y="-109.22" length="middle"/>
+<pin name="34_SIGNAL_GROUND2" x="-10.16" y="-111.76" length="middle"/>
+<pin name="35_SIGNAL_GROUND3" x="-10.16" y="-114.3" length="middle"/>
+<pin name="36_SIGNAL_GROUND4" x="-10.16" y="-116.84" length="middle"/>
+<pin name="37_SIGNAL_GROUND5" x="-10.16" y="-119.38" length="middle"/>
+<pin name="38_DNU8" x="-10.16" y="-121.92" length="middle"/>
+<pin name="39_DNU9" x="-10.16" y="-124.46" length="middle"/>
+<pin name="40_RS-232-OUT4" x="-10.16" y="-127" length="middle"/>
+<pin name="41_RS-232-OUT5" x="-10.16" y="-129.54" length="middle"/>
+<pin name="42_CDU_SYSTEM_ID_PRG4" x="-10.16" y="-132.08" length="middle"/>
+<pin name="43_14V_LIGHTING_BUS_HI" x="-10.16" y="-134.62" length="middle"/>
+<pin name="44_SIGNAL_GROUND6" x="-10.16" y="-137.16" length="middle"/>
+<pin name="45_CAN_BUS_LO_2" x="-10.16" y="-139.7" length="middle"/>
+<pin name="46_CAN_BUS_HI_2" x="-10.16" y="-142.24" length="middle"/>
+<pin name="47_RS-232-IN1" x="-10.16" y="-144.78" length="middle"/>
+<pin name="48_RS-232-OUT1" x="-10.16" y="-147.32" length="middle"/>
+<pin name="49_CONFIG_MODULE_GROUND" x="-10.16" y="-149.86" length="middle"/>
+<pin name="50_CONFIG_MODULE_DATA" x="-10.16" y="-152.4" length="middle"/>
 <wire x1="-5.08" y1="-154.94" x2="30.48" y2="-154.94" width="0.254" layer="94"/>
 <wire x1="30.48" y1="-154.94" x2="30.48" y2="-25.4" width="0.254" layer="94"/>
 <wire x1="30.48" y1="-25.4" x2="-5.08" y2="-25.4" width="0.254" layer="94"/>
@@ -318,7 +318,8 @@
 <wire x1="30.48" y1="7.62" x2="99.06" y2="7.62" width="0.254" layer="94"/>
 <wire x1="99.06" y1="7.62" x2="99.06" y2="-187.96" width="0.254" layer="94"/>
 <wire x1="99.06" y1="-187.96" x2="30.48" y2="-187.96" width="0.254" layer="94"/>
-<text x="53.34" y="-91.44" size="5.08" layer="94">GDU45X</text>
+<text x="53.34" y="-99.06" size="5.08" layer="94">&gt;VALUE</text>
+<text x="53.34" y="-86.36" size="5.08" layer="94">&gt;NAME</text>
 </symbol>
 <symbol name="GAD29">
 <pin name="J292_1" x="-12.7" y="12.7" length="middle"/>
@@ -432,11 +433,11 @@
 <pin name="J242_20" x="-38.1" y="-132.08" length="middle"/>
 <pin name="J242_21" x="-38.1" y="-134.62" length="middle"/>
 <pin name="J242_22" x="-38.1" y="-137.16" length="middle"/>
-<pin name="J241_1" x="12.7" y="17.78" length="middle" rot="R180"/>
-<pin name="J241_2" x="12.7" y="15.24" length="middle" rot="R180"/>
+<pin name="CAN_HI_1" x="12.7" y="17.78" length="middle" rot="R180"/>
+<pin name="CAN_LO_2" x="12.7" y="15.24" length="middle" rot="R180"/>
 <pin name="J241_3" x="12.7" y="12.7" length="middle" rot="R180"/>
-<pin name="J241_4" x="12.7" y="10.16" length="middle" rot="R180"/>
-<pin name="J241_5" x="12.7" y="7.62" length="middle" rot="R180"/>
+<pin name="RS232_RX_4" x="12.7" y="10.16" length="middle" rot="R180"/>
+<pin name="RS232_TX_5" x="12.7" y="7.62" length="middle" rot="R180"/>
 <pin name="J241_6" x="12.7" y="5.08" length="middle" rot="R180"/>
 <pin name="J241_7" x="12.7" y="2.54" length="middle" rot="R180"/>
 <pin name="J241_8" x="12.7" y="0" length="middle" rot="R180"/>
@@ -513,9 +514,9 @@
 <pin name="J242_24" x="-38.1" y="-142.24" length="middle"/>
 <pin name="J242_25" x="-38.1" y="-144.78" length="middle"/>
 <text x="-25.4" y="-81.28" size="1.778" layer="94">J242</text>
-<wire x1="7.62" y1="-5.08" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="-5.08" x2="-5.08" y2="20.32" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="20.32" x2="7.62" y2="20.32" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-5.08" x2="-7.62" y2="20.32" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="20.32" x2="7.62" y2="20.32" width="0.254" layer="94"/>
 <wire x1="7.62" y1="20.32" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
 <text x="-2.54" y="20.32" size="1.778" layer="94">J241</text>
 <wire x1="-5.08" y1="-139.7" x2="7.62" y2="-139.7" width="0.254" layer="94"/>
@@ -721,46 +722,48 @@
 <text x="-4.318" y="-22.606" size="1.778" layer="94">&gt;VALUE</text>
 </symbol>
 <symbol name="GSU25">
-<pin name="CAN_H" x="-12.7" y="10.16" length="middle"/>
-<pin name="CAN_L" x="-12.7" y="7.62" length="middle"/>
-<pin name="RSV" x="-12.7" y="5.08" length="middle"/>
-<pin name="RS232_RX1" x="-12.7" y="2.54" length="middle"/>
-<pin name="RS232_TX1" x="-12.7" y="0" length="middle"/>
-<pin name="GND1" x="-12.7" y="-2.54" length="middle"/>
-<pin name="AIRCRAFT_POWER1" x="-12.7" y="-5.08" length="middle"/>
-<pin name="AIRCRAFT_POWER2" x="-12.7" y="-7.62" length="middle"/>
-<pin name="GND2" x="-12.7" y="-10.16" length="middle"/>
+<pin name="1_CAN_H" x="-17.78" y="10.16" length="middle"/>
+<pin name="2_CAN_L" x="-17.78" y="7.62" length="middle"/>
+<pin name="3_RSV" x="-17.78" y="5.08" length="middle"/>
+<pin name="4_RS232_RX1" x="-17.78" y="2.54" length="middle"/>
+<pin name="5_RS232_TX1" x="-17.78" y="0" length="middle"/>
+<pin name="6_GND1" x="-17.78" y="-2.54" length="middle"/>
+<pin name="7_AIRCRAFT_POWER1" x="-17.78" y="-5.08" length="middle"/>
+<pin name="8_AIRCRAFT_POWER2" x="-17.78" y="-7.62" length="middle"/>
+<pin name="9_GND2" x="-17.78" y="-10.16" length="middle"/>
 <text x="-6.35" y="13.462" size="1.778" layer="94">J251</text>
-<wire x1="-7.62" y1="12.7" x2="-7.62" y2="-12.7" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-12.7" x2="15.24" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-12.7" x2="15.24" y2="-12.7" width="0.254" layer="94"/>
 <wire x1="15.24" y1="-12.7" x2="15.24" y2="12.7" width="0.254" layer="94"/>
-<wire x1="15.24" y1="12.7" x2="-7.62" y2="12.7" width="0.254" layer="94"/>
-<pin name="OAT_PWR" x="40.64" y="17.78" length="middle" rot="R180"/>
-<pin name="OAT_HIGH" x="40.64" y="15.24" length="middle" rot="R180"/>
-<pin name="OAT_LOW" x="40.64" y="12.7" length="middle" rot="R180"/>
-<pin name="UNIT_ID1_GND" x="40.64" y="10.16" length="middle" rot="R180"/>
-<pin name="UNIT_ID1" x="40.64" y="7.62" length="middle" rot="R180"/>
-<pin name="12V_MAG_PWR" x="40.64" y="5.08" length="middle" rot="R180"/>
-<pin name="MAG_GND" x="40.64" y="2.54" length="middle" rot="R180"/>
-<pin name="RSV2" x="40.64" y="0" length="middle" rot="R180"/>
-<pin name="RS232_TX3" x="40.64" y="-2.54" length="middle" rot="R180"/>
-<pin name="RS232_RX3" x="40.64" y="-5.08" length="middle" rot="R180"/>
-<pin name="GND3" x="40.64" y="-7.62" length="middle" rot="R180"/>
-<pin name="RS485_RXA" x="40.64" y="-10.16" length="middle" rot="R180"/>
-<pin name="RS485_RXB" x="40.64" y="-12.7" length="middle" rot="R180"/>
-<pin name="GND4" x="40.64" y="-15.24" length="middle" rot="R180"/>
-<pin name="RS232_TX2" x="40.64" y="-17.78" length="middle" rot="R180"/>
-<wire x1="35.56" y1="20.32" x2="35.56" y2="-20.32" width="0.254" layer="94"/>
-<wire x1="35.56" y1="-20.32" x2="17.78" y2="-20.32" width="0.254" layer="94"/>
-<wire x1="17.78" y1="-20.32" x2="17.78" y2="20.32" width="0.254" layer="94"/>
-<wire x1="17.78" y1="20.32" x2="35.56" y2="20.32" width="0.254" layer="94"/>
+<wire x1="15.24" y1="12.7" x2="-12.7" y2="12.7" width="0.254" layer="94"/>
+<pin name="OAT_PWR_1" x="45.72" y="17.78" length="middle" rot="R180"/>
+<pin name="OAT_HIGH_2" x="45.72" y="15.24" length="middle" rot="R180"/>
+<pin name="OAT_LOW_3" x="45.72" y="12.7" length="middle" rot="R180"/>
+<pin name="UNIT_ID1_GND_4" x="45.72" y="10.16" length="middle" rot="R180"/>
+<pin name="UNIT_ID_5" x="45.72" y="7.62" length="middle" rot="R180"/>
+<pin name="12V_MAG_PWR_6" x="45.72" y="5.08" length="middle" rot="R180"/>
+<pin name="MAG_GND_7" x="45.72" y="2.54" length="middle" rot="R180"/>
+<pin name="RSV2_8" x="45.72" y="0" length="middle" rot="R180"/>
+<pin name="RS232_TX3_9" x="45.72" y="-2.54" length="middle" rot="R180"/>
+<pin name="RS232_RX3_10" x="45.72" y="-5.08" length="middle" rot="R180"/>
+<pin name="GND3_11" x="45.72" y="-7.62" length="middle" rot="R180"/>
+<pin name="RS485_RXA_12" x="45.72" y="-10.16" length="middle" rot="R180"/>
+<pin name="RS485_RXB_13" x="45.72" y="-12.7" length="middle" rot="R180"/>
+<pin name="GND4_14" x="45.72" y="-15.24" length="middle" rot="R180"/>
+<pin name="RS232_TX2_15" x="45.72" y="-17.78" length="middle" rot="R180"/>
+<wire x1="40.64" y1="-20.32" x2="20.32" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="20.32" y1="-20.32" x2="20.32" y2="20.32" width="0.254" layer="94"/>
+<wire x1="20.32" y1="20.32" x2="40.64" y2="20.32" width="0.254" layer="94"/>
 <text x="29.718" y="20.828" size="1.778" layer="94">J252</text>
-<wire x1="38.1" y1="-22.86" x2="-10.16" y2="-22.86" width="0.254" layer="94"/>
-<wire x1="-10.16" y1="-22.86" x2="-10.16" y2="22.86" width="0.254" layer="94"/>
-<wire x1="-10.16" y1="22.86" x2="38.1" y2="22.86" width="0.254" layer="94"/>
-<wire x1="38.1" y1="22.86" x2="38.1" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="40.64" y1="-22.86" x2="-12.7" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-22.86" x2="-12.7" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-12.7" x2="-12.7" y2="12.7" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="12.7" x2="-12.7" y2="22.86" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="22.86" x2="40.64" y2="22.86" width="0.254" layer="94"/>
+<wire x1="40.64" y1="22.86" x2="40.64" y2="20.32" width="0.254" layer="94"/>
 <text x="-9.906" y="23.622" size="1.778" layer="94">&gt;NAME</text>
 <text x="-8.636" y="-19.558" size="1.778" layer="94">&gt;VALUE</text>
+<wire x1="40.64" y1="20.32" x2="40.64" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="40.64" y1="-20.32" x2="40.64" y2="-22.86" width="0.254" layer="94"/>
 </symbol>
 <symbol name="GDL51R">
 <pin name="P$1" x="-10.16" y="15.24" length="middle"/>
@@ -902,89 +905,89 @@
 <text x="-5.08" y="8.636" size="1.778" layer="94">&gt;NAME</text>
 </symbol>
 <symbol name="GTN_650">
-<pin name="P1001_1" x="-99.06" y="35.56" length="middle"/>
-<pin name="P1001_2" x="-99.06" y="33.02" length="middle"/>
-<pin name="P1001_3" x="-99.06" y="30.48" length="middle"/>
-<pin name="P1001_4" x="-99.06" y="27.94" length="middle"/>
-<pin name="P1001_5" x="-99.06" y="25.4" length="middle"/>
-<pin name="P1001_6" x="-99.06" y="22.86" length="middle"/>
-<pin name="P1001_7" x="-99.06" y="20.32" length="middle"/>
-<pin name="P1001_8" x="-99.06" y="17.78" length="middle"/>
-<pin name="P1001_9" x="-99.06" y="15.24" length="middle"/>
-<pin name="P1001_10" x="-99.06" y="12.7" length="middle"/>
-<pin name="P1001_11" x="-99.06" y="10.16" length="middle"/>
-<pin name="P1001_12" x="-99.06" y="7.62" length="middle"/>
-<pin name="P1001_13" x="-99.06" y="5.08" length="middle"/>
-<pin name="P1001_14" x="-99.06" y="2.54" length="middle"/>
-<pin name="P1001_15" x="-99.06" y="0" length="middle"/>
-<pin name="P1001_16" x="-99.06" y="-2.54" length="middle"/>
-<pin name="P1001_17" x="-99.06" y="-5.08" length="middle"/>
-<pin name="P1001_18" x="-99.06" y="-7.62" length="middle"/>
-<pin name="P1001_19" x="-99.06" y="-10.16" length="middle"/>
-<pin name="P1001_20" x="-99.06" y="-12.7" length="middle"/>
-<pin name="P1001_21" x="-99.06" y="-15.24" length="middle"/>
-<pin name="P1001_22" x="-99.06" y="-17.78" length="middle"/>
-<pin name="P1001_23" x="-99.06" y="-20.32" length="middle"/>
-<pin name="P1001_24" x="-99.06" y="-22.86" length="middle"/>
-<pin name="P1001_25" x="-99.06" y="-25.4" length="middle"/>
-<pin name="P1001_26" x="-99.06" y="-27.94" length="middle"/>
-<pin name="P1001_27" x="-99.06" y="-30.48" length="middle"/>
-<pin name="P1001_28" x="-99.06" y="-33.02" length="middle"/>
-<pin name="P1001_29" x="-99.06" y="-35.56" length="middle"/>
-<pin name="P1001_30" x="-99.06" y="-38.1" length="middle"/>
-<pin name="P1001_31" x="-99.06" y="-40.64" length="middle"/>
-<pin name="P1001_32" x="-99.06" y="-43.18" length="middle"/>
-<pin name="P1001_33" x="-99.06" y="-45.72" length="middle"/>
-<pin name="P1001_34" x="-99.06" y="-48.26" length="middle"/>
-<pin name="P1001_35" x="-99.06" y="-50.8" length="middle"/>
-<pin name="P1001_36" x="-99.06" y="-53.34" length="middle"/>
-<pin name="P1001_37" x="-99.06" y="-55.88" length="middle"/>
-<pin name="P1001_38" x="-99.06" y="-58.42" length="middle"/>
-<pin name="P1001_39" x="-99.06" y="-60.96" length="middle"/>
-<pin name="P1001_40" x="-60.96" y="35.56" length="middle" rot="R180"/>
-<pin name="P1001_41" x="-60.96" y="33.02" length="middle" rot="R180"/>
-<pin name="P1001_42" x="-60.96" y="30.48" length="middle" rot="R180"/>
-<pin name="P1001_43" x="-60.96" y="27.94" length="middle" rot="R180"/>
-<pin name="P1001_44" x="-60.96" y="25.4" length="middle" rot="R180"/>
-<pin name="P1001_45" x="-60.96" y="22.86" length="middle" rot="R180"/>
-<pin name="P1001_46" x="-60.96" y="20.32" length="middle" rot="R180"/>
-<pin name="P1001_47" x="-60.96" y="17.78" length="middle" rot="R180"/>
-<pin name="P1001_48" x="-60.96" y="15.24" length="middle" rot="R180"/>
-<pin name="P1001_49" x="-60.96" y="12.7" length="middle" rot="R180"/>
-<pin name="P1001_50" x="-60.96" y="10.16" length="middle" rot="R180"/>
-<pin name="P1001_51" x="-60.96" y="7.62" length="middle" rot="R180"/>
-<pin name="P1001_52" x="-60.96" y="5.08" length="middle" rot="R180"/>
-<pin name="P1001_53" x="-60.96" y="2.54" length="middle" rot="R180"/>
-<pin name="P1001_54" x="-60.96" y="0" length="middle" rot="R180"/>
-<pin name="P1001_55" x="-60.96" y="-2.54" length="middle" rot="R180"/>
-<pin name="P1001_56" x="-60.96" y="-5.08" length="middle" rot="R180"/>
-<pin name="P1001_57" x="-60.96" y="-7.62" length="middle" rot="R180"/>
-<pin name="P1001_58" x="-60.96" y="-10.16" length="middle" rot="R180"/>
-<pin name="P1001_59" x="-60.96" y="-12.7" length="middle" rot="R180"/>
-<pin name="P1001_60" x="-60.96" y="-15.24" length="middle" rot="R180"/>
-<pin name="P1001_61" x="-60.96" y="-17.78" length="middle" rot="R180"/>
-<pin name="P1001_62" x="-60.96" y="-20.32" length="middle" rot="R180"/>
-<pin name="P1001_63" x="-60.96" y="-22.86" length="middle" rot="R180"/>
-<pin name="P1001_64" x="-60.96" y="-25.4" length="middle" rot="R180"/>
-<pin name="P1001_65" x="-60.96" y="-27.94" length="middle" rot="R180"/>
-<pin name="P1001_66" x="-60.96" y="-30.48" length="middle" rot="R180"/>
-<pin name="P1001_67" x="-60.96" y="-33.02" length="middle" rot="R180"/>
-<pin name="P1001_68" x="-60.96" y="-35.56" length="middle" rot="R180"/>
-<pin name="P1001_69" x="-60.96" y="-38.1" length="middle" rot="R180"/>
-<pin name="P1001_70" x="-60.96" y="-40.64" length="middle" rot="R180"/>
-<pin name="P1001_71" x="-60.96" y="-43.18" length="middle" rot="R180"/>
-<pin name="P1001_72" x="-60.96" y="-45.72" length="middle" rot="R180"/>
-<pin name="P1001_73" x="-60.96" y="-48.26" length="middle" rot="R180"/>
-<pin name="P1001_74" x="-60.96" y="-50.8" length="middle" rot="R180"/>
-<pin name="P1001_75" x="-60.96" y="-53.34" length="middle" rot="R180"/>
-<pin name="P1001_76" x="-60.96" y="-55.88" length="middle" rot="R180"/>
-<pin name="P1001_77" x="-60.96" y="-58.42" length="middle" rot="R180"/>
-<pin name="P1001_78" x="-60.96" y="-60.96" length="middle" rot="R180"/>
-<wire x1="-93.98" y1="-63.5" x2="-66.04" y2="-63.5" width="0.254" layer="94"/>
-<wire x1="-66.04" y1="-63.5" x2="-66.04" y2="38.1" width="0.254" layer="94"/>
-<wire x1="-66.04" y1="38.1" x2="-93.98" y2="38.1" width="0.254" layer="94"/>
-<wire x1="-93.98" y1="38.1" x2="-93.98" y2="-63.5" width="0.254" layer="94"/>
-<text x="-93.472" y="38.862" size="1.778" layer="94">P1001</text>
+<pin name="P1001_1" x="-109.22" y="35.56" length="middle"/>
+<pin name="P1001_2" x="-109.22" y="33.02" length="middle"/>
+<pin name="P1001_3" x="-109.22" y="30.48" length="middle"/>
+<pin name="P1001_4" x="-109.22" y="27.94" length="middle"/>
+<pin name="P1001_5" x="-109.22" y="25.4" length="middle"/>
+<pin name="P1001_6" x="-109.22" y="22.86" length="middle"/>
+<pin name="P1001_7" x="-109.22" y="20.32" length="middle"/>
+<pin name="P1001_8" x="-109.22" y="17.78" length="middle"/>
+<pin name="P1001_9" x="-109.22" y="15.24" length="middle"/>
+<pin name="P1001_10" x="-109.22" y="12.7" length="middle"/>
+<pin name="P1001_11" x="-109.22" y="10.16" length="middle"/>
+<pin name="P1001_12" x="-109.22" y="7.62" length="middle"/>
+<pin name="P1001_13" x="-109.22" y="5.08" length="middle"/>
+<pin name="P1001_14" x="-109.22" y="2.54" length="middle"/>
+<pin name="P1001_15" x="-109.22" y="0" length="middle"/>
+<pin name="P1001_16" x="-109.22" y="-2.54" length="middle"/>
+<pin name="P1001_17" x="-109.22" y="-5.08" length="middle"/>
+<pin name="P1001_18" x="-109.22" y="-7.62" length="middle"/>
+<pin name="P1001_19" x="-109.22" y="-10.16" length="middle"/>
+<pin name="P1001_20" x="-109.22" y="-12.7" length="middle"/>
+<pin name="P1001_21" x="-109.22" y="-15.24" length="middle"/>
+<pin name="P1001_22" x="-109.22" y="-17.78" length="middle"/>
+<pin name="P1001_23" x="-109.22" y="-20.32" length="middle"/>
+<pin name="P1001_24" x="-109.22" y="-22.86" length="middle"/>
+<pin name="P1001_25" x="-109.22" y="-25.4" length="middle"/>
+<pin name="P1001_26" x="-109.22" y="-27.94" length="middle"/>
+<pin name="P1001_27" x="-109.22" y="-30.48" length="middle"/>
+<pin name="P1001_28" x="-109.22" y="-33.02" length="middle"/>
+<pin name="P1001_29" x="-109.22" y="-35.56" length="middle"/>
+<pin name="P1001_30" x="-109.22" y="-38.1" length="middle"/>
+<pin name="P1001_31" x="-109.22" y="-40.64" length="middle"/>
+<pin name="P1001_32" x="-109.22" y="-43.18" length="middle"/>
+<pin name="P1001_33" x="-109.22" y="-45.72" length="middle"/>
+<pin name="P1001_34" x="-109.22" y="-48.26" length="middle"/>
+<pin name="P1001_35" x="-109.22" y="-50.8" length="middle"/>
+<pin name="P1001_36" x="-109.22" y="-53.34" length="middle"/>
+<pin name="P1001_37" x="-109.22" y="-55.88" length="middle"/>
+<pin name="P1001_38" x="-109.22" y="-58.42" length="middle"/>
+<pin name="P1001_39" x="-109.22" y="-60.96" length="middle"/>
+<pin name="P1001_40" x="-71.12" y="35.56" length="middle" rot="R180"/>
+<pin name="P1001_41" x="-71.12" y="33.02" length="middle" rot="R180"/>
+<pin name="P1001_42" x="-71.12" y="30.48" length="middle" rot="R180"/>
+<pin name="P1001_43" x="-71.12" y="27.94" length="middle" rot="R180"/>
+<pin name="P1001_44" x="-71.12" y="25.4" length="middle" rot="R180"/>
+<pin name="P1001_45" x="-71.12" y="22.86" length="middle" rot="R180"/>
+<pin name="P1001_46" x="-71.12" y="20.32" length="middle" rot="R180"/>
+<pin name="P1001_47" x="-71.12" y="17.78" length="middle" rot="R180"/>
+<pin name="P1001_48" x="-71.12" y="15.24" length="middle" rot="R180"/>
+<pin name="P1001_49" x="-71.12" y="12.7" length="middle" rot="R180"/>
+<pin name="P1001_50" x="-71.12" y="10.16" length="middle" rot="R180"/>
+<pin name="P1001_51" x="-71.12" y="7.62" length="middle" rot="R180"/>
+<pin name="P1001_52" x="-71.12" y="5.08" length="middle" rot="R180"/>
+<pin name="P1001_53" x="-71.12" y="2.54" length="middle" rot="R180"/>
+<pin name="P1001_54" x="-71.12" y="0" length="middle" rot="R180"/>
+<pin name="P1001_55" x="-71.12" y="-2.54" length="middle" rot="R180"/>
+<pin name="P1001_56" x="-71.12" y="-5.08" length="middle" rot="R180"/>
+<pin name="P1001_57" x="-71.12" y="-7.62" length="middle" rot="R180"/>
+<pin name="P1001_58" x="-71.12" y="-10.16" length="middle" rot="R180"/>
+<pin name="P1001_59" x="-71.12" y="-12.7" length="middle" rot="R180"/>
+<pin name="P1001_60" x="-71.12" y="-15.24" length="middle" rot="R180"/>
+<pin name="P1001_61" x="-71.12" y="-17.78" length="middle" rot="R180"/>
+<pin name="P1001_62" x="-71.12" y="-20.32" length="middle" rot="R180"/>
+<pin name="P1001_63" x="-71.12" y="-22.86" length="middle" rot="R180"/>
+<pin name="P1001_64" x="-71.12" y="-25.4" length="middle" rot="R180"/>
+<pin name="P1001_65" x="-71.12" y="-27.94" length="middle" rot="R180"/>
+<pin name="P1001_66" x="-71.12" y="-30.48" length="middle" rot="R180"/>
+<pin name="P1001_67" x="-71.12" y="-33.02" length="middle" rot="R180"/>
+<pin name="P1001_68" x="-71.12" y="-35.56" length="middle" rot="R180"/>
+<pin name="P1001_69" x="-71.12" y="-38.1" length="middle" rot="R180"/>
+<pin name="P1001_70" x="-71.12" y="-40.64" length="middle" rot="R180"/>
+<pin name="P1001_71" x="-71.12" y="-43.18" length="middle" rot="R180"/>
+<pin name="P1001_72" x="-71.12" y="-45.72" length="middle" rot="R180"/>
+<pin name="P1001_73" x="-71.12" y="-48.26" length="middle" rot="R180"/>
+<pin name="P1001_74" x="-71.12" y="-50.8" length="middle" rot="R180"/>
+<pin name="P1001_75" x="-71.12" y="-53.34" length="middle" rot="R180"/>
+<pin name="P1001_76" x="-71.12" y="-55.88" length="middle" rot="R180"/>
+<pin name="P1001_77" x="-71.12" y="-58.42" length="middle" rot="R180"/>
+<pin name="P1001_78" x="-71.12" y="-60.96" length="middle" rot="R180"/>
+<wire x1="-104.14" y1="-63.5" x2="-76.2" y2="-63.5" width="0.254" layer="94"/>
+<wire x1="-76.2" y1="-63.5" x2="-76.2" y2="38.1" width="0.254" layer="94"/>
+<wire x1="-76.2" y1="38.1" x2="-104.14" y2="38.1" width="0.254" layer="94"/>
+<wire x1="-104.14" y1="38.1" x2="-104.14" y2="-63.5" width="0.254" layer="94"/>
+<text x="-103.632" y="38.862" size="1.778" layer="94">P1001</text>
 <pin name="P1002_1" x="-45.72" y="35.56" length="middle"/>
 <pin name="P1002_2" x="-45.72" y="33.02" length="middle"/>
 <pin name="P1002_3" x="-45.72" y="30.48" length="middle"/>
@@ -1130,10 +1133,10 @@
 <wire x1="114.3" y1="-45.72" x2="86.36" y2="-45.72" width="0.254" layer="94"/>
 <wire x1="86.36" y1="-45.72" x2="86.36" y2="38.1" width="0.254" layer="94"/>
 <text x="86.36" y="38.354" size="1.778" layer="94">P1004</text>
-<wire x1="-106.68" y1="43.18" x2="-106.68" y2="-68.58" width="0.254" layer="94"/>
-<wire x1="-106.68" y1="-68.58" x2="127" y2="-68.58" width="0.254" layer="94"/>
+<wire x1="-119.38" y1="43.18" x2="-119.38" y2="-68.58" width="0.254" layer="94"/>
+<wire x1="-119.38" y1="-68.58" x2="127" y2="-68.58" width="0.254" layer="94"/>
 <wire x1="127" y1="-68.58" x2="127" y2="43.18" width="0.254" layer="94"/>
-<wire x1="127" y1="43.18" x2="-106.68" y2="43.18" width="0.254" layer="94"/>
+<wire x1="127" y1="43.18" x2="-119.38" y2="43.18" width="0.254" layer="94"/>
 <text x="-7.62" y="40.64" size="1.778" layer="94">&gt;NAME</text>
 <pin name="P1004_31" x="81.28" y="-40.64" length="middle"/>
 <pin name="P1004_32" x="81.28" y="-43.18" length="middle"/>
@@ -1203,7 +1206,7 @@
 <pin name="LAMP" x="2.54" y="7.62" length="middle" rot="R270"/>
 <pin name="DUAL_IN" x="5.08" y="7.62" length="middle" rot="R270"/>
 <pin name="DUAL_OUT" x="7.62" y="7.62" length="middle" rot="R270"/>
-<pin name="NC" x="10.16" y="7.62" length="middle" rot="R270"/>
+<pin name="SENSE" x="10.16" y="7.62" length="middle" rot="R270"/>
 <wire x1="-10.16" y1="2.54" x2="12.7" y2="2.54" width="0.254" layer="94"/>
 <wire x1="12.7" y1="2.54" x2="12.7" y2="-12.7" width="0.254" layer="94"/>
 <wire x1="12.7" y1="-12.7" x2="-10.16" y2="-12.7" width="0.254" layer="94"/>
