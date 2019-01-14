@@ -253,7 +253,7 @@
 <wire x1="-5.08" y1="-20.32" x2="30.48" y2="-20.32" width="0.254" layer="94"/>
 <wire x1="30.48" y1="-20.32" x2="30.48" y2="5.08" width="0.254" layer="94"/>
 <wire x1="30.48" y1="5.08" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
-<text x="-2.54" y="-25.4" size="1.778" layer="94">P4602</text>
+<text x="22.86" y="-25.4" size="1.778" layer="94">P4602</text>
 <pin name="1_MONO_AUDIO_OUT_HI" x="-10.16" y="-27.94" length="middle"/>
 <pin name="2_STEREO_AUDIO_OUT_LO1" x="-10.16" y="-30.48" length="middle"/>
 <pin name="3_STEREO_AUDIO_OUT_LEFT" x="-10.16" y="-33.02" length="middle"/>
@@ -279,11 +279,11 @@
 <pin name="23_RS-232-IN4" x="-10.16" y="-83.82" length="middle"/>
 <pin name="24_RS-232-IN5" x="-10.16" y="-86.36" length="middle"/>
 <pin name="25_CDU_SYSTEM_ID_PRG_3" x="-10.16" y="-88.9" length="middle"/>
-<pin name="28V_LIGHTING_BUS_HI" x="-10.16" y="-91.44" length="middle"/>
+<pin name="26_28V_LIGHTING_BUS_HI" x="-10.16" y="-91.44" length="middle"/>
 <pin name="SIGNAL_GROUND1" x="-10.16" y="-93.98" length="middle"/>
 <pin name="CAN_BUS_TERM" x="-10.16" y="-96.52" length="middle"/>
-<pin name="RS-232-IN3" x="-10.16" y="-99.06" length="middle"/>
-<pin name="RS-232-OUT2" x="-10.16" y="-101.6" length="middle"/>
+<pin name="29_RS-232-IN3" x="-10.16" y="-99.06" length="middle"/>
+<pin name="30_RS-232-OUT2" x="-10.16" y="-101.6" length="middle"/>
 <pin name="AIRCRAFT_POWER_2" x="-10.16" y="-104.14" length="middle"/>
 <pin name="AIRCRAFT_POWER_1" x="-10.16" y="-106.68" length="middle"/>
 <pin name="33_CONFIG_MODULE_CLOCK" x="-10.16" y="-109.22" length="middle"/>
@@ -304,22 +304,25 @@
 <pin name="48_RS-232-OUT1" x="-10.16" y="-147.32" length="middle"/>
 <pin name="49_CONFIG_MODULE_GROUND" x="-10.16" y="-149.86" length="middle"/>
 <pin name="50_CONFIG_MODULE_DATA" x="-10.16" y="-152.4" length="middle"/>
-<wire x1="-5.08" y1="-154.94" x2="30.48" y2="-154.94" width="0.254" layer="94"/>
-<wire x1="30.48" y1="-154.94" x2="30.48" y2="-25.4" width="0.254" layer="94"/>
-<wire x1="30.48" y1="-25.4" x2="-5.08" y2="-25.4" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="-25.4" x2="-5.08" y2="-154.94" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-157.48" x2="30.48" y2="-157.48" width="0.254" layer="94"/>
+<wire x1="30.48" y1="-157.48" x2="30.48" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="30.48" y1="-22.86" x2="-5.08" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-22.86" x2="-5.08" y2="-157.48" width="0.254" layer="94"/>
 <text x="0" y="-162.56" size="1.778" layer="94">P4X03</text>
 <wire x1="-5.08" y1="-162.56" x2="-5.08" y2="-185.42" width="0.254" layer="94"/>
 <wire x1="-5.08" y1="-185.42" x2="30.48" y2="-185.42" width="0.254" layer="94"/>
 <wire x1="30.48" y1="-185.42" x2="30.48" y2="-162.56" width="0.254" layer="94"/>
 <wire x1="30.48" y1="-162.56" x2="-5.08" y2="-162.56" width="0.254" layer="94"/>
 <text x="7.62" y="-175.26" size="1.778" layer="94">Do Not Use</text>
-<wire x1="30.48" y1="-187.96" x2="30.48" y2="7.62" width="0.254" layer="94"/>
+<wire x1="30.48" y1="-187.96" x2="30.48" y2="-157.48" width="0.254" layer="94"/>
+<wire x1="30.48" y1="-22.86" x2="30.48" y2="7.62" width="0.254" layer="94"/>
 <wire x1="30.48" y1="7.62" x2="99.06" y2="7.62" width="0.254" layer="94"/>
 <wire x1="99.06" y1="7.62" x2="99.06" y2="-187.96" width="0.254" layer="94"/>
 <wire x1="99.06" y1="-187.96" x2="30.48" y2="-187.96" width="0.254" layer="94"/>
 <text x="53.34" y="-99.06" size="5.08" layer="94">&gt;VALUE</text>
 <text x="53.34" y="-86.36" size="5.08" layer="94">&gt;NAME</text>
+<pin name="SHIELD2" x="-10.16" y="-154.94" length="middle"/>
+<pin name="SHIELD1" x="-10.16" y="-25.4" length="middle"/>
 </symbol>
 <symbol name="GAD29">
 <pin name="J292_1" x="-12.7" y="12.7" length="middle"/>
@@ -549,21 +552,21 @@
 <wire x1="-17.78" y1="-2.54" x2="-17.78" y2="25.4" width="0.254" layer="94"/>
 </symbol>
 <symbol name="GMU22">
-<pin name="SIGNAL_GND1" x="-15.24" y="15.24" length="middle"/>
-<pin name="RS485_OUTB" x="-15.24" y="12.7" length="middle"/>
-<pin name="SIGNAL_GND2" x="-15.24" y="10.16" length="middle"/>
-<pin name="RS485_OUTA" x="-15.24" y="7.62" length="middle"/>
-<pin name="SPARE1" x="-15.24" y="5.08" length="middle"/>
-<pin name="GND" x="-15.24" y="2.54" length="middle"/>
-<pin name="SPARE2" x="-15.24" y="0" length="middle"/>
-<pin name="RS232_IN" x="-15.24" y="-2.54" length="middle"/>
-<pin name="12V_PWR" x="-15.24" y="-5.08" length="middle"/>
+<pin name="1_SIGNAL_GND1" x="-15.24" y="15.24" length="middle"/>
+<pin name="2_RS485_OUTB" x="-15.24" y="12.7" length="middle"/>
+<pin name="3_SIGNAL_GND2" x="-15.24" y="2.54" length="middle"/>
+<pin name="4_RS485_OUTA" x="-15.24" y="10.16" length="middle"/>
+<pin name="5_SPARE1" x="-15.24" y="5.08" length="middle"/>
+<pin name="6_GND" x="-15.24" y="0" length="middle"/>
+<pin name="7_SPARE2" x="-15.24" y="7.62" length="middle"/>
+<pin name="8_RS232_IN" x="-15.24" y="-2.54" length="middle"/>
+<pin name="9_12V_PWR" x="-15.24" y="-5.08" length="middle"/>
 <text x="-7.62" y="17.78" size="1.778" layer="94">&gt;NAME</text>
 <text x="-7.62" y="-10.16" size="1.778" layer="94">&gt;VALUE</text>
 <wire x1="-10.16" y1="17.78" x2="-10.16" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="-10.16" y1="-7.62" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="7.62" y1="-7.62" x2="7.62" y2="17.78" width="0.254" layer="94"/>
-<wire x1="7.62" y1="17.78" x2="-10.16" y2="17.78" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-7.62" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-7.62" x2="10.16" y2="17.78" width="0.254" layer="94"/>
+<wire x1="10.16" y1="17.78" x2="-10.16" y2="17.78" width="0.254" layer="94"/>
 </symbol>
 <symbol name="IBBS_6A">
 <pin name="ENABLE" x="7.62" y="12.7" length="middle" rot="R180"/>
@@ -766,25 +769,25 @@
 <wire x1="40.64" y1="-20.32" x2="40.64" y2="-22.86" width="0.254" layer="94"/>
 </symbol>
 <symbol name="GDL51R">
-<pin name="P$1" x="-10.16" y="15.24" length="middle"/>
-<pin name="P$2" x="-10.16" y="12.7" length="middle"/>
-<pin name="P$3" x="-10.16" y="10.16" length="middle"/>
-<pin name="P$4" x="-10.16" y="7.62" length="middle"/>
-<pin name="RS232_TX2" x="-10.16" y="5.08" length="middle"/>
-<pin name="RS232_RX2" x="-10.16" y="2.54" length="middle"/>
-<pin name="RS232_TX1" x="-10.16" y="0" length="middle"/>
-<pin name="RS232_RX1" x="-10.16" y="-2.54" length="middle"/>
-<pin name="GND" x="-10.16" y="-5.08" length="middle"/>
-<pin name="PWR" x="-10.16" y="-7.62" length="middle"/>
-<pin name="SIGNAL_GND1" x="-10.16" y="-10.16" length="middle"/>
-<pin name="SIGNAL_GND2" x="-10.16" y="-12.7" length="middle"/>
-<pin name="MUSIC_OUT_LEFT" x="-10.16" y="-15.24" length="middle"/>
-<pin name="MUSIC_OUT_COMMON" x="-10.16" y="-17.78" length="middle"/>
-<pin name="MUSIC_OUT_RIGHT" x="-10.16" y="-20.32" length="middle"/>
+<pin name="1" x="-10.16" y="10.16" length="middle"/>
+<pin name="2" x="-10.16" y="7.62" length="middle"/>
+<pin name="3" x="-10.16" y="5.08" length="middle"/>
+<pin name="4" x="-10.16" y="-10.16" length="middle"/>
+<pin name="5_RS232_TX2" x="-10.16" y="2.54" length="middle"/>
+<pin name="6_RS232_RX2" x="-10.16" y="0" length="middle"/>
+<pin name="7_RS232_TX1" x="-10.16" y="-5.08" length="middle"/>
+<pin name="8_RS232_RX1" x="-10.16" y="-7.62" length="middle"/>
+<pin name="9_GND" x="-10.16" y="12.7" length="middle"/>
+<pin name="10_PWR" x="-10.16" y="15.24" length="middle"/>
+<pin name="11_SIGNAL_GND1" x="-10.16" y="-12.7" length="middle"/>
+<pin name="12_SIGNAL_GND2" x="-10.16" y="-2.54" length="middle"/>
+<pin name="13_MUSIC_OUT_LEFT" x="-10.16" y="-15.24" length="middle"/>
+<pin name="14_MUSIC_OUT_COMMON" x="-10.16" y="-17.78" length="middle"/>
+<pin name="15_MUSIC_OUT_RIGHT" x="-10.16" y="-20.32" length="middle"/>
 <wire x1="-5.08" y1="17.78" x2="-5.08" y2="-22.86" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="-22.86" x2="20.32" y2="-22.86" width="0.254" layer="94"/>
-<wire x1="20.32" y1="-22.86" x2="20.32" y2="17.78" width="0.254" layer="94"/>
-<wire x1="20.32" y1="17.78" x2="-5.08" y2="17.78" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-22.86" x2="22.86" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="22.86" y1="-22.86" x2="22.86" y2="17.78" width="0.254" layer="94"/>
+<wire x1="22.86" y1="17.78" x2="-5.08" y2="17.78" width="0.254" layer="94"/>
 <text x="-4.826" y="18.542" size="1.778" layer="94">&gt;NAME</text>
 </symbol>
 <symbol name="GTP59">
@@ -1365,6 +1368,12 @@
 <wire x1="7.62" y1="7.62" x2="-5.08" y2="7.62" width="0.254" layer="94"/>
 <text x="5.08" y="-2.54" size="1.778" layer="94" rot="R90">HOBBS</text>
 </symbol>
+<symbol name="SHIELD">
+<wire x1="-2.54" y1="2.54" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
+<pin name="S" x="0" y="7.62" length="middle" rot="R270"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="VPX_PRO">
@@ -1866,6 +1875,20 @@
 <technologies>
 <technology name="">
 <attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SHIELD">
+<gates>
+<gate name="G$1" symbol="SHIELD" x="0" y="-5.08"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name="">
+<attribute name="_EXTERNAL_" value="_EXTERNAL_" constant="no"/>
 </technology>
 </technologies>
 </device>
