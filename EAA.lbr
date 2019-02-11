@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -1374,6 +1374,80 @@
 <wire x1="2.54" y1="2.54" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
 <pin name="S" x="0" y="7.62" length="middle" rot="R270"/>
 </symbol>
+<symbol name="WM16793-ND">
+<pin name="P$1" x="-10.16" y="7.62" length="middle" rot="R270"/>
+<pin name="P$2" x="-7.62" y="7.62" length="middle" rot="R270"/>
+<pin name="P$3" x="-5.08" y="7.62" length="middle" rot="R270"/>
+<pin name="P$4" x="-2.54" y="7.62" length="middle" rot="R270"/>
+<wire x1="-12.7" y1="2.54" x2="-12.7" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-7.62" x2="2.54" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-7.62" x2="2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="-12.7" y2="2.54" width="0.254" layer="94"/>
+<text x="-12.446" y="-7.366" size="1.778" layer="94">&gt;NAME</text>
+</symbol>
+<symbol name="CPC_28">
+<pin name="P$1" x="10.16" y="20.32" length="middle" rot="R180"/>
+<pin name="P$2" x="10.16" y="17.78" length="middle" rot="R180"/>
+<pin name="P$3" x="10.16" y="15.24" length="middle" rot="R180"/>
+<pin name="P$4" x="10.16" y="12.7" length="middle" rot="R180"/>
+<pin name="P$5" x="10.16" y="10.16" length="middle" rot="R180"/>
+<pin name="P$6" x="10.16" y="7.62" length="middle" rot="R180"/>
+<pin name="P$7" x="10.16" y="5.08" length="middle" rot="R180"/>
+<pin name="P$8" x="10.16" y="2.54" length="middle" rot="R180"/>
+<pin name="P$9" x="10.16" y="0" length="middle" rot="R180"/>
+<pin name="P$10" x="10.16" y="-2.54" length="middle" rot="R180"/>
+<pin name="P$11" x="10.16" y="-5.08" length="middle" rot="R180"/>
+<pin name="P$12" x="10.16" y="-7.62" length="middle" rot="R180"/>
+<pin name="P$13" x="10.16" y="-10.16" length="middle" rot="R180"/>
+<pin name="P$14" x="10.16" y="-12.7" length="middle" rot="R180"/>
+<pin name="P$15" x="10.16" y="-15.24" length="middle" rot="R180"/>
+<pin name="P$16" x="10.16" y="-17.78" length="middle" rot="R180"/>
+<pin name="P$17" x="10.16" y="-20.32" length="middle" rot="R180"/>
+<pin name="P$18" x="10.16" y="-22.86" length="middle" rot="R180"/>
+<pin name="P$19" x="10.16" y="-25.4" length="middle" rot="R180"/>
+<pin name="P$20" x="10.16" y="-27.94" length="middle" rot="R180"/>
+<pin name="P$21" x="10.16" y="-30.48" length="middle" rot="R180"/>
+<pin name="P$22" x="10.16" y="-33.02" length="middle" rot="R180"/>
+<pin name="P$23" x="10.16" y="-35.56" length="middle" rot="R180"/>
+<pin name="P$24" x="10.16" y="-38.1" length="middle" rot="R180"/>
+<pin name="P$25" x="10.16" y="-40.64" length="middle" rot="R180"/>
+<pin name="P$26" x="10.16" y="-43.18" length="middle" rot="R180"/>
+<pin name="P$27" x="10.16" y="-45.72" length="middle" rot="R180"/>
+<pin name="P$28" x="10.16" y="-48.26" length="middle" rot="R180"/>
+<pin name="L$1" x="-17.78" y="20.32" length="middle"/>
+<pin name="L$2" x="-17.78" y="17.78" length="middle"/>
+<pin name="L$3" x="-17.78" y="15.24" length="middle"/>
+<pin name="L$4" x="-17.78" y="12.7" length="middle"/>
+<pin name="L$5" x="-17.78" y="10.16" length="middle"/>
+<pin name="L$6" x="-17.78" y="7.62" length="middle"/>
+<pin name="L$7" x="-17.78" y="5.08" length="middle"/>
+<pin name="L$8" x="-17.78" y="2.54" length="middle"/>
+<pin name="L$9" x="-17.78" y="0" length="middle"/>
+<pin name="L$10" x="-17.78" y="-2.54" length="middle"/>
+<pin name="L$11" x="-17.78" y="-5.08" length="middle"/>
+<pin name="L$12" x="-17.78" y="-7.62" length="middle"/>
+<pin name="L$13" x="-17.78" y="-10.16" length="middle"/>
+<pin name="L$14" x="-17.78" y="-12.7" length="middle"/>
+<pin name="L$15" x="-17.78" y="-15.24" length="middle"/>
+<pin name="L$16" x="-17.78" y="-17.78" length="middle"/>
+<pin name="L$17" x="-17.78" y="-20.32" length="middle"/>
+<pin name="L$18" x="-17.78" y="-22.86" length="middle"/>
+<pin name="L$19" x="-17.78" y="-25.4" length="middle"/>
+<pin name="L$20" x="-17.78" y="-27.94" length="middle"/>
+<pin name="L$21" x="-17.78" y="-30.48" length="middle"/>
+<pin name="L$22" x="-17.78" y="-33.02" length="middle"/>
+<pin name="L$23" x="-17.78" y="-35.56" length="middle"/>
+<pin name="L$24" x="-17.78" y="-38.1" length="middle"/>
+<pin name="L$25" x="-17.78" y="-40.64" length="middle"/>
+<pin name="L$26" x="-17.78" y="-43.18" length="middle"/>
+<pin name="L$27" x="-17.78" y="-45.72" length="middle"/>
+<pin name="L$28" x="-17.78" y="-48.26" length="middle"/>
+<wire x1="-12.7" y1="22.86" x2="-12.7" y2="-50.8" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-50.8" x2="5.08" y2="-50.8" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-50.8" x2="5.08" y2="22.86" width="0.254" layer="94"/>
+<wire x1="5.08" y1="22.86" x2="-12.7" y2="22.86" width="0.254" layer="94"/>
+<text x="-12.7" y="25.4" size="1.778" layer="94">&gt;NAME</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="VPX_PRO">
@@ -1883,6 +1957,34 @@
 <deviceset name="SHIELD">
 <gates>
 <gate name="G$1" symbol="SHIELD" x="0" y="-5.08"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name="">
+<attribute name="_EXTERNAL_" value="_EXTERNAL_" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WM16793-ND">
+<gates>
+<gate name="G$1" symbol="WM16793-ND" x="5.08" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name="">
+<attribute name="_EXTERNAL_" value="_EXTERNAL_" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CPC_28">
+<gates>
+<gate name="G$1" symbol="CPC_28" x="2.54" y="10.16"/>
 </gates>
 <devices>
 <device name="">
